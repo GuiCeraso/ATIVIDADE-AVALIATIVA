@@ -1,6 +1,6 @@
 reais = float(input("Digite o valor em Reais: "))
-cotacao = float(input("Digite a cotação do Dólar: "))
+conversor = float(input("Digite a cotação do Dólar: "))
 
-dolares = reais / cotacao
+dolares = reais / conversor
 
 print("Valor em Dólares: US$", dolares)
